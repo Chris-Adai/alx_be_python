@@ -1,10 +1,10 @@
 # rectangle area
 
-length=10
+length = 10
 
-width=5
+width = 5
 
-area=length * width
+area = length * width
 
 print ("The area of rectangle is: ", area)
 The area of rectangle is:  50
