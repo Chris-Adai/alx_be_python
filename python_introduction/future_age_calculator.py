@@ -5,12 +5,12 @@ current_age = int(input("How old are you?: "))
 
 future_age = current_age + 27
 
-future_age
+#future_age
 # 57
 
 age = current_age + 27
 
-age
+#age
 # 57
 
 print ("In 2050, you will be ", age, " years old ")
