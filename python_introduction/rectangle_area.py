@@ -7,5 +7,5 @@ width = 5
 area = length * width
 
 print ("The area of rectangle is: ", area)
-The area of rectangle is:  50
+# The area of rectangle is:  50
 
