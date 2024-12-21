@@ -1,5 +1,5 @@
 # calculating the future age
-current_age = int (input("How old are you?: "))
+current_age = int(input("How old are you?: "))
 
 # How old are you?: 30
 
