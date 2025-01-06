@@ -31,10 +31,15 @@ loop_sym_num = range (symbol_number)
 
 sym = "*"
 
-for i in loop_sym_num:
-    # j=0
-    # while j <= symbol_number:
-    while i <= symbol_number:
-        print (sym * symbol_number, end=' ' )
-    print ()
-    break
+# for i in loop_sym_num:
+#     # j=0
+#     # while j <= symbol_number:
+#     while i <= symbol_number:
+#         print (sym * symbol_number, end=' ' )
+#     print ()
+#     break
+
+for i in loop_sym_num: 
+    if i <= symbol_number: 
+        print(sym * symbol_number, end=' ')
+        print()
