@@ -22,7 +22,7 @@
 # 5 x 10 = 5555555555
 # which can be used for the right angle triangle problem
 
-# number = input ('Enter a number to see its multiplication table: ' )   # could not using int(input())
+# number = input ("Enter a number to see its multiplication table: ")   # could not using int(input())
 
 # for i in range (1,11):
 #     mult_num = number * i
