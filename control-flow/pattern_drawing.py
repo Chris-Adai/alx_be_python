@@ -35,6 +35,6 @@ for i in loop_sym_num:
     # j=0
     # while j <= symbol_number:
     while i <= symbol_number:
-        print (sym * symbol_number )
+        print (sym * symbol_number, end=' ' )
             # print ()
         break
