@@ -39,7 +39,18 @@ sym = "*"
 #     print ()
 #     break
 
-for i in loop_sym_num: 
-    if i <= symbol_number: 
-        print(sym * symbol_number, end=' ')
-        print()
+# for i in loop_sym_num: 
+#     if i <= symbol_number: 
+#         print(sym * symbol_number, end=' ')
+#         print()
+
+# Prompt the user for the size of the pattern
+symbol_number = int(input('Enter the size of the pattern: '))
+
+# Define the symbol to be used for the pattern
+sym = "*"
+
+# Use a for loop to iterate through the range of symbol_number
+for i in range(symbol_number):
+    # Print the symbol 'sym' repeated 'symbol_number' times, followed by a new line
+    print(sym * symbol_number)
