@@ -28,7 +28,9 @@
 #     mult_num = number * i
 #     print (f'{number} x {i} = {mult_num}')
 
-number = int(input('Enter a number to see its multiplication table: ' )) # try doing this with different datatypes especially float
+# number = int(input('Enter a number to see its multiplication table: ' )) # try doing this with different datatypes especially float
+
+number = float(input('Enter a number to see its multiplication table: ' )) # try doing this with different datatypes especially float
 
 for i in range(1,11):
    # multi_num = number * i
