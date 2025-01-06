@@ -24,9 +24,9 @@ if weather == "sunny":
 elif weather == "rainy":
     print("Take an umbrella and wear waterproof shoes.")
 elif weather == "cold":
-    print("Wear a warm coat and scarf.")
+    print("Make sure to wear a warm coat and a scarf.")
 else:
-    print("Invalid input. Please enter 'sunny', 'rainy', or 'cold'.")
+    print("Sorry, I don't have recommendations for this weather.")
 
 
 
