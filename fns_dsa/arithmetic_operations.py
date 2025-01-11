@@ -66,41 +66,62 @@
 
 
 ### code block 3
+# def perform_operation(num1, num2, operation):
+#     """
+#     Perform the specified arithmetic operation and return the result as a formatted string.
+#     """
+#     if operation == "add":
+#         num3 = num1 + num2
+#         return f"{num1} + {num2} = {num3}"
+
+#     elif operation == "subtract":
+#         num3 = num1 - num2
+#         return f"{num1} - {num2} = {num3}"
+
+#     elif operation == "multiply":
+#         num3 = num1 * num2
+#         return f"{num1} * {num2} = {num3}"
+
+#     elif operation == "divide":
+#         if num2 == 0:
+#             return "Cannot perform division at this time"
+#         else:
+#             num3 = num1 / num2
+#             return f"{num1} / {num2} = {num3}"
+
+#     else:
+#         return "Invalid operation. Please use 'add', 'subtract', 'multiply', or 'divide'."
+
+
+# # Main program
+# if __name__ == "__main__":
+#     num1 = float(input("Input the first number: "))
+#     num2 = float(input("Input the second number: "))
+#     operation = input("Enter 'add', 'subtract', 'multiply', or 'divide': ")
+
+#     # Call the function and handle the result
+#     result = perform_operation(num1, num2, operation)
+#     print(result)
+
+
+## code block 4
 def perform_operation(num1, num2, operation):
     """
-    Perform the specified arithmetic operation and return the result as a formatted string.
+    Perform the specified arithmetic operation and return the result as a string.
     """
     if operation == "add":
-        num3 = num1 + num2
-        return f"{num1} + {num2} = {num3}"
-
+        return f"{num1} + {num2} = {num1 + num2}"
     elif operation == "subtract":
-        num3 = num1 - num2
-        return f"{num1} - {num2} = {num3}"
-
+        return f"{num1} - {num2} = {num1 - num2}"
     elif operation == "multiply":
-        num3 = num1 * num2
-        return f"{num1} * {num2} = {num3}"
-
+        return f"{num1} * {num2} = {num1 * num2}"
     elif operation == "divide":
         if num2 == 0:
             return "Cannot perform division at this time"
-        else:
-            num3 = num1 / num2
-            return f"{num1} / {num2} = {num3}"
-
+        return f"{num1} / {num2} = {num1 / num2}"
     else:
         return "Invalid operation. Please use 'add', 'subtract', 'multiply', or 'divide'."
 
 
-# Main program
-if __name__ == "__main__":
-    num1 = float(input("Input the first number: "))
-    num2 = float(input("Input the second number: "))
-    operation = input("Enter 'add', 'subtract', 'multiply', or 'divide': ")
-
-    # Call the function and handle the result
-    result = perform_operation(num1, num2, operation)
-    print(result)
 
 
