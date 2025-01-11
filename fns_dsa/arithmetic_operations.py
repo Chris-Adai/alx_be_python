@@ -47,11 +47,13 @@ def perform_operation(num1, num2, operation):
 
     elif operation == "divide":
         if num2 == 0:
-            print ("cannot perform division at this time")
+            # print ("cannot perform division at this time")
+            return ("cannot perform division at this time")
 
         else:
             num3 = num1/num2
-            print(f"{num1} / {num2} = {num3}")
+            # print(f"{num1} / {num2} = {num3}")
+            return (f"{num1} / {num2} = {num3}")
 
     else:
         print ("input either 'add', 'subtract', 'multiply', or 'divide'.")
