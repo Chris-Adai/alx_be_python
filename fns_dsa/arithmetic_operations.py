@@ -59,7 +59,7 @@ def perform_operation(num1, num2, operation):
             return f"{num1} / {num2} = {num3}"
 
     else:
-        print ("input either 'add', 'subtract', 'multiply', or 'divide'.")
+        return ("input either 'add', 'subtract', 'multiply', or 'divide'.")
 
 
 perform_operation(num1, num2, operation)
