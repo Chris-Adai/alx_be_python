@@ -35,15 +35,18 @@ def perform_operation(num1, num2, operation):
 
     if operation == "add":
         num3=num1+num2
-        print (f"{num1} + {num2} = {num3}")
-
+        # print (f"{num1} + {num2} = {num3}")
+        return f"{num1} + {num2} = {num3}"
+        
     elif operation == "subtract":
         num3 = num1-num2
-        print(f"{num1} - {num2} = {num3}")
-
+        # print(f"{num1} - {num2} = {num3}")
+        return f"{num1} - {num2} = {num3}"
+        
     elif operation == "multiply":
         num3 = num1*num2
         print(f"{num1} * {num2} = {num3}")
+        return f"{num1} * {num2} = {num3}"
 
     elif operation == "divide":
         if num2 == 0:
@@ -53,7 +56,7 @@ def perform_operation(num1, num2, operation):
         else:
             num3 = num1/num2
             # print(f"{num1} / {num2} = {num3}")
-            return (f"{num1} / {num2} = {num3}")
+            return f"{num1} / {num2} = {num3}"
 
     else:
         print ("input either 'add', 'subtract', 'multiply', or 'divide'.")
