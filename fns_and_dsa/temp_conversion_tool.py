@@ -1,13 +1,17 @@
 
 #
+global FAHRENHEIT_TO_CELSIUS_FACTOR
 FAHRENHEIT_TO_CELSIUS_FACTOR = (5/9)
 
 #
+global CELSIUS_TO_FAHRENHEIT_FACTOR
 CELSIUS_TO_FAHRENHEIT_FACTOR = (9/5)
 
 # scoping the function parameter
 global fahrenheit
 global celsius
+# global FAHRENHEIT_TO_CELSIUS_FACTOR # error
+# global CELSIUS_TO_FAHRENHEIT_FACTOR # error
 
 #
 def convert_to_celsius(fahrenheit):
